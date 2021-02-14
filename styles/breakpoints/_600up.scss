@@ -67,6 +67,17 @@
   }
 }
 
+.location {
+  &__info {
+    width: 22%;
+    margin-bottom: 0;
+  }
+
+  &__map {
+    width: 74%;
+  }
+}
+
 .footer {
   & > .logo {
     justify-content: flex-start;
