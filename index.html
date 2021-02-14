@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweets Cafe</title>
+    <link rel="stylesheet" href="styles/loader.css" />
+    <script src="scripts/vendors/pace.js"></script>
+    <meta name="description" content="カフェのポートフォリオサイトです。プログラミング学習の成果物として作成しました。This is a sample website for checking my learning outcomes of programming." />
+    <!-- <link rel="shortcut icon" href="images/logo.JPG" type="image/x-icon"> -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon_package_v0.16/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon_package_v0.16/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon_package_v0.16/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicon_package_v0.16/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#ff0000" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="styles/vendors/swiper.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div id="global-container">
+      <div id="container">
+        <div class="mobile-menu__cover"></div>
+        <div class="nav-trigger"></div>
+        <a name="header"></a>
+        <header class="header">
+          <div class="header__inner appear up">
+            <a href="index.html#header" class="header__home-btn">
+              <picture class="logo item">
+                <!-- <img src="images/logo.jpg" alt="" class="logo__img" /> -->
+                <span class="logo__first">Sweets</span>
+                <span class="logo__second">Cafe</span>
+              </picture>
+            </a>
+            <nav class="header__nav">
+              <ul class="header__ul">
+                <li class="header__li item">
+                  <a class="btn filled" href="menu.html">Menu</a>
+                </li>
+                <li class="header__li item">
+                  <a class="btn filled" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="mobile-menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </header>
+
+        <div id="content">
+          <div class="hero">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="hero__title">Delicious</div>
+                  <img src="images/cafe000.jpg" alt="slider-picture000" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero__title">Gorgeous</div>
+                  <img src="images/cafe004.jpg" alt="slider-picture001" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero__title">Photogenic</div>
+                  <img src="images/cafe002.jpg" alt="slider-picture002" />
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div id="main-content">
+            <aside class="side left">
+              <div class="side__inner">
+                <a href="" class="twitter sns-icon tween-animate-title">Twitter</a>
+                <a href="" class="fb sns-icon tween-animate-title">Facebook</a>
+              </div>
+            </aside>
+
+            <main>
+              <section class="season">
+                <div class="season__inner">
+                  <div class="season__img cover-slide">
+                    <img
+                      class="img-zoom"
+                      src="images/season000.jpg"
+                      alt="シーズン画像"
+                    />
+                  </div>
+                  <div class="season__texts appear left">
+                    <div class="season__texts-inner">
+                      <div class="season__title main-title item">
+                        <img
+                          class="season__downarrow"
+                          src="images/arrow.svg"
+                          alt="矢印"
+                        />
+                        <span class="yellow">Season</span>
+                        <span>Menu</span>
+                      </div>
+                      <div class="season__sub sub-title item">
+                        期間限定季節メニュー
+                      </div>
+                      <div class="season__description item">
+                        <p>
+                          今だけ限定の季節メニューです。<br />四季を感じながら味わってみてください。
+                        </p>
+                        <p>この冬限定メニューです。</p>
+                      </div>
+                      <div class="season__btn item">
+                        <a href="menu.html">
+                          <button class="btn filled">もっと見る</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="news appear down">
+                <div class="news__main">
+                  <div class="news__header">
+                    <h2 class="main-title tween-animate-title">News</h2>
+                    <p class="sub-title tween-animate-title">ニュース</p>
+                  </div>
+                  <div class="news__inner item">
+                    <h3 class="news__title">店内ギャラリーが変わりました</h3>
+                    <p class="news__date">2/12<span>2021</span></p>
+                  </div>
+                  <img
+                    src="images/news000.jpg"
+                    alt="店内ギャラリー"
+                    class="item"
+                  />
+                  <div class="news__content">
+                    <p>店内の様子が変わりました。</p>
+                    <p>
+                      季節の雰囲気を取り入れ、室内にいても四季を感じることができます。
+                    </p>
+                    <p>お休みの日にゆったりくつろいで下さい。</p>
+                  </div>
+                </div>
+                <aside class="news__sub item">
+                  <h3>最新のニュース</h3>
+                  <ul class="news__lists">
+                    <li class="news__list">
+                      <a href="#">新メニューが追加されました</a>
+                    </li>
+                    <li class="news__list">
+                      <a href="#">グッドデザイン賞を受賞しました</a>
+                    </li>
+                    <li class="news__list">
+                      <a href="#">インタビューが掲載されました</a>
+                    </li>
+                    <li class="news__list">
+                      <a href="#">雑誌で取り上げられました</a>
+                    </li>
+                    <li class="news__list">
+                      <a href="#">ネットショップをオープンしました</a>
+                    </li>
+                  </ul>
+                </aside>
+              </section>
+            </main>
+
+            <aside class="side right">
+              <div class="side__inner">
+                <span class="tween-animate-title">&copy; Kazuki Tsubota</span>
+              </div>
+            </aside>
+          </div>
+        </div>
+
+        <footer class="footer appear down">
+          <div class="logo item">
+            <!-- <img class="logo__img" src="images/logo.jpg" alt="ロゴ画像" /> -->
+            <span class="logo__first">Sweets</span>
+            <span class="logo__second">Cafe</span>
+          </div>
+          <nav class="footer__nav item">
+            <ul class="footer__ul">
+              <li class="footer__li"><a href="menu.html">Menu</a></li>
+              <li class="footer__li"><a href="contact.html">Contact</a></li>
+              <li class="footer__li"><a href="">Sitemap</a></li>
+            </ul>
+            <div class="footer__copyright">
+              <span class="footer__copyright-first"
+                >&copy; 2021 Kazuki Tsubota.</span
+              >
+              All Rights Reserved.
+            </div>
+          </nav>
+        </footer>
+      </div>
+
+      <nav class="mobile-menu">
+        <div class="logo">
+          <!-- <img src="images/logo.jpg" alt="" class="logo__img" /> -->
+          <span class="logo__first">Sweets</span>
+          <span class="logo__second">Cafe</span>
+        </div>
+        <ul class="mobile-menu__main">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="index.html">
+              <span class="main-title">Home</span>
+              <span class="sub-title">ホーム</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="menu.html">
+              <span class="main-title">Menu</span>
+              <span class="sub-title">メニュー</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="contact.html">
+              <span class="main-title">Contact</span>
+              <span class="sub-title">コンタクト</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <script src="scripts/vendors/swiper.min.js"></script>
+    <script src="scripts//vendors//TweenMax.min.js"></script>
+    <script src="scripts//vendors/scroll-polyfill.js"></script>
+    <script src="scripts/libs/scroll.js"></script>
+    <script src="scripts/libs/text-animation.js"></script>
+    <script src="scripts/libs/hero-slider.js"></script>
+    <script src="scripts/libs/mobile-menu.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

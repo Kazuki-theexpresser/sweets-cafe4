@@ -1,0 +1,15 @@
+.season {
+  &__inner {
+    padding: 50px 150px;
+  }
+}
+
+.drink {
+  &__item {
+    flex-basis: 23%;
+  }
+}
+
+.side {
+  display: block;
+}

@@ -1,0 +1,110 @@
+.font-sm {
+  font-size: 1.6rem;
+}
+
+.font-md {
+  font-size: 1.9rem;
+}
+
+.font-lr {
+  font-size: 2.3rem;
+}
+
+.font-lg {
+  font-size: 3.6rem;
+}
+
+.mt-lg {
+  margin-top: 130px;
+}
+
+.mb-lg {
+  margin-bottom: 150px !important;
+}
+
+.pt-md {
+  padding-top: 45px;
+}
+
+.pt-lg {
+  padding-top: 130px;
+}
+
+.pb-lg {
+  padding-bottom: 150px;
+}
+
+.header {
+  &__nav {
+    display: block;
+  } 
+}
+
+.mobile-menu {
+  &__btn {
+    display: none;
+  }
+}
+
+.drink {
+  &__item {
+    flex-basis: 25%;
+  }
+
+  &__img {
+    height: 335px;
+  }
+}
+
+.season {
+  &__title {
+    &.inview {
+      .season {
+        &__downarrow {
+          top: -33%;
+        } 
+      }
+
+    }
+  }
+  
+  &__img {
+    height: 400px;
+  }
+  
+  &__description {
+    margin-bottom: 70px;
+  }
+}
+
+.news {
+  &__date {
+    width: 100px;
+    height: 100px;
+
+    & span {
+      padding-top: 6px;
+    }
+  }
+
+  &__title {
+    margin-left: 120px;
+  }
+
+  &__sub {
+    margin-top: 100px;
+  }
+
+}
+
+.footer {
+  &__copyright {
+    &-first {
+      &::after {
+        content: '\A';
+        white-space: nowrap;
+      }
+    }
+
+  }
+}

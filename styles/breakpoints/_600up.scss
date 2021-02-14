@@ -1,0 +1,95 @@
+.flex {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.season {
+  &__inner {
+    padding: 50px;
+  }
+
+  &__title {
+    &.inview {
+      .season {
+        &__downarrow {
+          position: absolute;
+          left: -25%;
+          top: -73%;
+          transform: rotateZ(90deg);
+          z-index: 200;
+          display: inline-block;
+          overflow: hidden;
+          @include animation($name: kf-arrow-anime, $iteration-count: infinite, $duration: 2s, $timing-function: linear);
+          opacity: 1;
+        } 
+
+      }
+
+    }
+  }
+
+  
+  &__texts,
+  &__img {
+    flex-basis: 47%;
+  }
+
+  &__texts {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.news {
+  flex-direction: row;
+
+  &__main {
+    margin-right: 50px;
+  }
+
+  &__sub {
+    margin-top: 75px;
+    & h3 {
+      padding: 0px 8px 8px;
+    }
+  }
+}
+
+.menus {
+  &__item {
+    margin-bottom: 30px;
+  }
+}
+
+.drink {
+  &__item {
+    flex-basis: 47%;
+  }
+}
+
+.footer {
+  & > .logo {
+    justify-content: flex-start;
+  }
+
+  &__ul {
+    margin-bottom: 0;
+  }
+
+  &__li {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+
+}
+
+@keyframes kf-arrow-anime {
+  0%,
+  50%,
+  100% {
+    left: -30%;
+  }
+  30% {
+    left: -25%;
+  }
+}
